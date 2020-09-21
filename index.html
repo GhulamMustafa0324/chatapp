@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyDmfvVwbGX1LLibfNz0ToN3kYfvVGt7kew",
+            authDomain: "chatapp-19370.firebaseapp.com",
+            databaseURL: "https://chatapp-19370.firebaseio.com",
+            projectId: "chatapp-19370",
+            storageBucket: "chatapp-19370.appspot.com",
+            messagingSenderId: "443743890608",
+            appId: "1:443743890608:web:b451097a84ece6791b9f75",
+            measurementId: "G-MFBDZFVYMS"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <img class="tree" src="tree1.jpg" alt="">
+    </div>
+    <div class="dell" onclick="deleteeee()"></div>
+    <div class="chat">
+        <input type="text" class="chat-text">
+        <button onclick="addMsg()" class="chat-btn fas fa-plus-circle"></button>
+
+        <div class="msg">
+            <ul class="list">
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="khuwari">
+        <div class="img-cont">
+            <img src="login.jpg" alt="" class="login">
+        </div>
+
+        <div class="content">
+            <h1>WELCOME</h1>
+        </div>
+
+        <div class="para">
+            <div class="abcd">
+                <h2>Share your words
+                    with the world.</h2>
+
+                <br> <br>
+
+                <h2> <i class="fas fa-plus-circle"> </i> Express yourself</h2>
+
+                <br> <br>
+
+                <h2><i class="fas fa-user-plus"> </i> Make more friends</h2>
+
+            </div>
+        </div>
+
+        <!-- <div class="btn">
+            <a onclick="anim();" style='cursor: pointer;' class="fb">
+                <i class="fab fa-facebook-f"> </i> Login with Facebook
+            </a>
+        </div> -->
+
+        <form class="getInput">
+           <input class="chlna" type="text" required >  <br> <br>
+           <button id="startStop" class="ab-chl-jana"  onclick="anim();startStop()">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.tree{
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* filter: blur(1px); */
+}
+
+.chat {
+    position: absolute;
+    width: 60vw;
+    height: 85vh;
+    top: 8%;
+    left: 48%;
+    transform: translateX(-48%);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 55px black;
+}
+
+@media only screen and (max-width: 600px) {
+    .chat {
+        width: 80vw;
+        height: 85vh;
+    }
+}
+
+.chat-text {
+    width: 39vw;
+    height: 7vh;
+    position: absolute;
+    top: 89%;
+    background: transparent;
+    outline: none;
+    left: 13%;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 40px;
+    box-shadow: 0 0 55px black;
+}
+
+.chat-btn {
+    position: absolute;
+    font-size: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    top: 89%;
+    cursor: pointer;
+    right: 14%;
+    display: block;
+}
+.dell{
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 40px;
+    height: 40px 
+}
+.list {
+    position: relative;
+    top: 3%;
+    left: 5%;
+    /* max-height: 7vh; */
+    /* overflow-y: scroll;
+    overflow-x: hidden; 
+    /* max-width: 39vw;  */
+    width: 45vw;
+    height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+.li {
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 55px black;
+    /* width: 39vw; */
+    height: fit-content;
+    max-height: 70vh;
+    /* padding-top: -22px; */
+    padding: 20px;
+    list-style: none;
+    font-size: 30px;
+    margin-top: -8px;
+    padding-right: 2px;
+    /* border-radius: 40px;    */
+    color: wheat;
+}
+
+.list::-webkit-scrollbar {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.font {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .list {
+        width: 75vw;
+    }
+}
+
+
+/* @media only screen and (max-width: 600px) {
+    .chat-text{
+        width: 47vw;
+    }
+}  */
+
+@media only screen and (max-width: 1000px) {
+    .chat-text {
+        width: 40vw;
+        position: absolute;
+        left: 10%;
+    }
+    .chat-btn {
+        position: absolute;
+        font-size: 50px;
+        right: 12%;
+        top: 89%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .chat-btn {
+        position: absolute;
+        font-size: 50px;
+        right: 12%;
+        top: 89%;
+    }
+    .chat-text {
+        width: 38vw;
+        position: absolute;
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .chat-btn {
+        position: absolute;
+        font-size: 50px;
+        right: 9%;
+    }
+    .chat-text {
+        width: 51vw;
+        position: absolute;
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .chat-btn {
+        position: absolute;
+        font-size: 45px;
+        right: 6%;
+        top: 90%;
+    }
+    .chat-text {
+        width: 51vw;
+        position: absolute;
+        left: 10%;
+    }
+}
+
+.login{
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img-cont{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.content{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.para{
+    width: 29vw;
+    height: 35vh;
+    /* background-color: violet; */
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    right: 0;
+    text-align: center;
+    
+}
+
+.getInput{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.abcd{
+    position: absolute;
+    left: 8%;
+    top: 8%;
+    
+}
+a{
+    background-color: #3B5998;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; 
+  } 
+
+  @media only screen and (max-width: 500px) {
+    .getInput {
+        top: 69%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .getInput {
+        top: 75%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .getInput {
+        top: 80%;
+    }
+}
+
+.khuwari{
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+}
+
+.ab-chl-jana{
+    background-color:#000000;
+	border-radius:14px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+
