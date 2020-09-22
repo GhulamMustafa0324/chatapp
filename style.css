@@ -82,7 +82,11 @@
     overflow-x: hidden;
     
 }
+#yourName{
+    position: absolute;
+    top: 0;
 
+}
 .li {
     background: transparent;
     border: none;
@@ -109,6 +113,9 @@
 .font {
     font-size: 1.2rem;
     margin-top: 20px;
+}
+.hide{
+    display: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -217,7 +224,7 @@
     
 }
 
-.getInput{
+.btn{
     position: absolute;
     top: 60%;
     left: 0;
@@ -230,7 +237,7 @@
     top: 8%;
     
 }
-a{
+.fb{
     background-color: #3B5998;
     color: white;
     padding: 12px;
@@ -245,19 +252,19 @@ a{
   } 
 
   @media only screen and (max-width: 500px) {
-    .getInput {
+    .btn {
         top: 69%;
     }
 }
 
 @media only screen and (max-width: 430px) {
-    .getInput {
+    .btn {
         top: 75%;
     }
 }
 
 @media only screen and (max-width: 360px) {
-    .getInput {
+    .btn {
         top: 80%;
     }
 }

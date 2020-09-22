@@ -36,11 +36,16 @@
 </head>
 
 <body>
-    <div class="container">
+
+   
+<div class="main_container, hide" id="container">
+    <div class="container" >
         <img class="tree" src="tree1.jpg" alt="">
     </div>
+     
     <div class="dell" onclick="deleteeee()"></div>
     <div class="chat">
+        <h1 id="yourName" style="color: white;"></h1>
         <input type="text" class="chat-text">
         <button onclick="addMsg()" class="chat-btn fas fa-plus-circle"></button>
 
@@ -49,13 +54,15 @@
             </ul>
         </div>
     </div>
+</div>
+    <!-- //mujhe ye btaen dusra page kahan se str
+khuwari wali div login ka page h baqi upr wala chat app ka page h ok -->
 
 
 
 
 
-
-    <div class="khuwari">
+    <div class="khuwari" id="khuwari">
         <div class="img-cont">
             <img src="login.jpg" alt="" class="login">
         </div>
@@ -80,16 +87,16 @@
             </div>
         </div>
 
-        <!-- <div class="btn">
-            <a onclick="anim();" style='cursor: pointer;' class="fb">
+        <div class="btn">
+            <button onclick="foo()"  style='cursor: pointer;' class="fb">
                 <i class="fab fa-facebook-f"> </i> Login with Facebook
-            </a>
-        </div> -->
-
+            </button>
+        </div>
+<!-- 
         <form class="getInput">
            <input class="chlna" type="text" required >  <br> <br>
            <button id="startStop" class="ab-chl-jana"  onclick="anim();startStop()">Submit</button>
-        </form>
+        </form> -->
     </div>
 </body>
 <script src="app.js"></script>
